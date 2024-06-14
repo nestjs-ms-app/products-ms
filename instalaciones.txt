@@ -1,0 +1,9 @@
+yarn add class-validator class-transformer
+yarn add dotenv joi
+yarn add prisma --dev
+yarn prisma
+yarn prisma init
+npx prisma migrate dev --name init #despues de crear los modelos
+yarn add @prisma/client
+yarn add @nestjs/swagger
+yarn add @nestjs/microservices
